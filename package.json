@@ -7,7 +7,6 @@
     "setup": "evershop install",
     "build": "evershop build --skip-minify",
     "start": "evershop start",
-    "poststart": "npm user:create -- --email 'david@mineralplanet.es' --password 'Perdo187' --name 'David'",
     "start:debug": "evershop start --debug",
     "dev": "evershop dev",
     "user:create": "evershop user:create",
