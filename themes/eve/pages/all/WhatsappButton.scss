@@ -1,0 +1,60 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+  
+    &.active {
+      background-color: #128c7e;
+    }
+  
+    .whatsapp-logo {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .popup {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      background-color: #25d366;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      display: none;
+      z-index: 1000;
+      opacity: 0;
+      transition: opacity 0.3s;
+  
+      span {
+        display: block;
+        margin-bottom: 10px;
+      }
+  
+      a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  
+    &.active .popup {
+      display: block;
+      opacity: 1;
+    }
+  }
+  

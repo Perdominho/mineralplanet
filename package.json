@@ -1,0 +1,30 @@
+{
+  "name": "tienda",
+  "version": "1.0.0",
+  "description": "Mineral Planet",
+  "main": "index.js",
+  "scripts": {
+    "setup": "evershop install",
+    "build": "evershop build --skip-minify",
+    "start": "evershop start",
+    "poststart": "npm user:create -- --email 'david@mineralplanet.es' --password 'Perdo187' --name 'David'",
+    "start:debug": "evershop start --debug",
+    "dev": "evershop dev",
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword"
+  },
+  "keywords": [
+    "Mineral"
+  ],
+  "author": "Huracan La Costa",
+  "license": "ISC",
+  "dependencies": {
+    "@evershop/evershop": "^1.0.0-rc.8",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "react-icons": "^4.12.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "themeConfig": {
+        "logo": {
+            "alt": "Mineral Planet",
+            "src": "/logo.png",
+            "width": 100,
+            "height": 100
+        },
+        "headTags": {
+            "links": [
+                {
+                    "rel": "icon",
+                    "href": "/logo.png"
+                }
+            ],
+            "metas": [],
+            "scripts": []
+        },
+        "copyright": "© 2022 Evershop. All Rights Reserved."
+    }
+}

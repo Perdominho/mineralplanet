@@ -1,0 +1,25 @@
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+   }
+   
+   .icon-bar a {
+    color: black;
+    font-size: 24px;
+    transition: color 0.3s;
+   }
+   
+   .icon-bar a:hover {
+    color: #007bff;
+   }
