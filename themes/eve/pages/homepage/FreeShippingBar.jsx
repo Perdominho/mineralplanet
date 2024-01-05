@@ -10,7 +10,8 @@ function FreeShippingBar() {
         </div>
         <div className="p-2 border-divider">
           <h2>Internacional UPS</h2>
-          <p>Pide desde cualquier sitio</p>
+          <p>Pide desde cualquier sitio
+          Solicite presupuesto por WhatsApp</p>
         </div>
         <div className="p-2 border-divider">
           <h2>Solo piedras naturales</h2>
